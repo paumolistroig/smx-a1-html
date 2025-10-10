@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <title>Torneig SuperGames</title>
+</head>
+<body>
+
+  <header>
+    <h1>Torneig SuperGames</h1>
+    <p>El millor torneig de l'any!</p>
+  </header>
+            <nav>
+                <a href="partides.html">Partides</a> |
+                <a href="equips.html">Equips</a> |
+                <a href="calendari.html">Calendari</a>
+                </nav>
+  <main>
+    <section>
+      <h2>Organitzadors</h2>
+      <details>
+        <summary>Veure organitzadors</summary>
+            <li>TheGrefg 18 Milions de seguidors-. <a href="https://www.youtube.com/@TheGrefg">Canal</a></li>
+            <li>DjMariio 10 Milions de seguidors. - <a href="https://www.youtube.com/@DjMaRiiO">Canal</a></li>
+            </ul>
+      </details>
+    </section>
+    <section>
+      <h2>Partides</h2>
+      <table border="1">
+        <tr><th>Partida</th><th>Data</th><th>Hora</th></tr>
+        <tr><td>Equip A vs Equip B</td><td>10/10/2025</td><td>18:00</td></tr>
+        <tr><td>Equip C vs Equip D</td><td>11/10/2025</td><td>19:00</td></tr>
+      </table>
+    </section>
+    <section>
+      <h2>Equips</h2>
+      <table border="1">
+                        <tr><th>Nom</th><th>Punts</th><th>Descripció</th></tr>
+                        <tr><td>Team A</td><td>10</td><td>Equip fort</td></tr>
+                        <tr><td>Team B</td><td>8</td><td>Bona defensa</td></tr>
+                        </table>
+    </section>
+    <section>
+      <h2>Calendari</h2>
+      <p>Fase de grups → Eliminatòries → Final</p>
+    </section>
+    <section>
+      <h2>Notícies</h2>
+        <header><h3>Canvis al format</h3></header>
+        <p>La final serà al millor de 5 partides.</p>
+        <footer>Publicat el 8/10/2025</footer>
+      </article>
+    </section>
+  </main>
+  <aside>
+    <h3>Informació extra</h3>
+    <p>Patrocinadors: Logitech i LG</p>
+  </aside>
+  <footer>
+    <p>&copy; Torneig eSports Vallbona</p>
+    <p>Segueix-nos a les xarxes: Instagram: TorneigeSportsVallbona, Twitter, torneigeSPortsVallbona.</p>
+  </footer>
+</body>
+</html>
