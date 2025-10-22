@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exemple Formulari Complet HTML</title>
+    <meta name="description" content="Exemple Formulari Alta Videojoc a Steam">
+    <link rel="icon" href="./img/favicon.ico">
+</head>
+<body>
+    <form action="./processa_alta_videojoc.php" method="POST">
+        <fieldset>
+            <legend>Inscripció Curs online</legend>
+            
+            <label for="titol">Nom i Cognoms</label>
+            <input type="text" id="titol" name="titol" placeholder="Ex: Pau Molist Roig" maxlength="50" required>
+            <br><br>
+            <label for="Correu electrónic">Correu electrónic:</label>
+            <input type="text" id="Correu Electrónic" name="Correu Electrónic" placeholder="Ex: pau_molistroig@icvcarlesvallbona.cat" maxlength="50" required>
+            <br><br>
+            <label for="Telefon">Telefon:</label>
+            <input type="text" id="Telefon" name="Telefon" maxlength="50" required>
+            <br><br>
+            <label for="Data de naixement">Data de naixement:</label>
+            <input type="date" id="Data de naixement" name="Data de naixement" required>
+            <br><br>
+            <label for="Tipus de curs">Tipus de curs:</label>
+            <select id="Tipus de curs" name="Tipus de curs:" required>
+                <option value="">-- Selecciona una opció --</option>
+                <option value="Programació bàsica">Programació básica.</option>
+                <option value="Administració de sistemes">Administració de Sistemes.</option>
+                <option value="Desenvolupament de Videojocs">Desenvolupament de Videos.</option>
+                <option value="Desenvolupament Web">Desenvolupament Web</option>
+            </select>
+            <br><br>
+            <label>Nivell</label>
+            <input type="radio" id="Bàsic" name="mode" value="1" required>
+            <label for="Bàsic">Bàsic</label>
+            <input type="radio" id="Intermedi" name="mode" value="2">
+            <label for="Intermedi">Intermedi</label>
+            <input type="radio" id="Avançat" name="mode" value="3">
+            <label for="Avançat">Avançat</label>
+            <br><br>
+            <label>Interessos i motivacions:</label>
+            <input type="checkbox" id="Projectes práctics" name="Projectes práctics" value="Projectes práctics">
+            <label for="Projectes práctics">Projectes práctics.</label>
+            <input type="checkbox" id="Tutories Online" name="Tutories Online" value="Tutories Online">
+            <label for="Tutories Online">Tutories Online</label>
+            <input type="checkbox" id="Certificats" name="Certificats" value="Certificats">
+            <label for="Certificats">Certificats</label>
+            <br><br>
+            <label for="comentari">Perque et vols inscriure al curs?:</label><br>
+            <label for="job-type">Tipus de lloc de treball:</label>
+            <input list="job-types" id="job-type" name="job-type" placeholder="Per ex. Frontend" aria-label="Tipus de lloc de treball" autocomplete="off">
+            <datalist id="job-types">
+                        <option value="Ciberseguretat">
+                        <option value="DevOps">
+                        <option value="Frontend">
+                        <option value="Backend">
+            </datalist>
+            <br><br>
+            <label for="cv">Adjunta el teu CV (només PDF):</label>
+            <input type="file" id="cv" name="cv" accept=".pdf" required>
+            <br><br>
+            <label for="condicions">Accepto les condicions per realitzar el curs.</label>
+            <input type="checkbox" id="condicions" name="condicions" required>
+            <br><br>
+            <input type="submit" value="Enviar Formulari">
+        </fieldset>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
