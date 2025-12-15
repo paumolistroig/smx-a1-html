@@ -57,7 +57,7 @@ main {
 h2 {
   font-size: 2rem;
   text-align: center;
-  border-bottom: solid 3px #2398db ;
+  border-bottom: solid 3px #2398db;
   margin: 2rem;
 }
 
@@ -107,3 +107,4 @@ footer {
   box-shadow: 0 0 4px #FFFFFF;
 
 }
+
