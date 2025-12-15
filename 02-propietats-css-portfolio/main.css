@@ -7,23 +7,30 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
 }
 
+
+
 /* ============================================
           CONTENIDOR GENERAL (ENGLOBA TOT)
  ============================================ */
+
+
 .container-portfolio {
   max-width: 900px;
   margin: 2rem auto;
   box-shadow: 0 0 10px black;
 }
 
+
 /* ============================================
           HEADER AMB IMATGE DE PERFIL
 ============================================ */
+
 header {
   background-color: #edf4fc;
   text-align: center;
@@ -39,6 +46,8 @@ header img {
   border: solid 4px #93c5fd;
   box-shadow: 0 5px 15px rgb(0,0,0,4)
 }
+
+
 
 /* Nom principal */
 #nom-principal {
@@ -71,16 +80,13 @@ main {
 /* ============================================
           SECCIONS GENERALS
 ============================================ */
-section.seccio {
-
-}
 
 /* Títols de secció */
 section.seccio > h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2rem;
   color: black;
   border-bottom:solid 1px #64748b ;
+  font-size: 2rem;
 }
 
 /* ============================================
@@ -96,15 +102,14 @@ section.sobre-mi p {
 ============================================ */
 ul.habilitats-llista {
   list-style: none;
-  
 }
 
 /* Selector de descendent - Items dins de la llista */
 ul.habilitats-llista li { 
   padding: 1rem;
+  border-radius: 6px;
   margin-top: 1rem;
   border-left:solid 7px ;
-  border-radius: 6px;
 }
 
 /* Classes específiques per nivell */
@@ -113,9 +118,7 @@ ul.habilitats-llista li.nivell-expert {background-color: rgba(52, 152, 219, 0.3)
 }
 
 ul.habilitats-llista li.nivell-expert strong {
-  color: #2563eb
-  
-;
+  color: #2563eb;
 }
 
 .habilitats-llista li.nivell-intermig {background-color: rgba(52, 152, 219, 0.2);
@@ -139,11 +142,11 @@ ul.habilitats-llista li.nivell-basic strong {
 ============================================ */
 article.projecte {
   border-right:solid 6px #3498db;
+  border-radius: 0.5rem;
   border-bottom:solid 6px #3498db;
   border-top: solid 2px #93c5fd;
   border-left:solid 2px #93c5fd ;
   margin-top: 1rem;
-  border-radius: 0.5rem;
 }
 
 /* Selector fill directe - Títol de projecte */
@@ -185,14 +188,14 @@ article.projecte p strong {
 ============================================ */
 div.experiencia-item {
   margin-top: 2rem;
-  border-right:solid 6px #3498db;
+border-right:solid 6px #3498db;
   border-bottom:solid 2px #93c5fd;
   border-top: solid 2px #93c5fd;
   border-left:solid 6px #3498db ;
   border-radius: 2rem;
-  padding: 2rem;
-  background-color: #f0f4f8;
   color: #334155;
+  padding: 2rem;
+  background-color: #f0f4f8;        
 }
 
 /* Títols dels contenidors d'experiència */
@@ -265,19 +268,21 @@ footer.contacte .info-contacte a[href] {
 /* Selector d'atribut específic - Email */
 footer.contacte a[href^='mailto:'] {
   color: #3498db;
-  font-weight: bold;
-  border:solid 3px #3498db;
   background-color: rgba(52, 152, 219, 0.1);
   border-radius: 0.5rem;
   padding: 1rem;
+    font-weight: bold;
+  border:solid 3px #3498db;
 }
 
 /* Selector d'atribut específic - Telèfon */
 footer.contacte a[href^='tel:'] {
   color: black;
-  border:solid 3px black;
-  border-radius: 0.5rem;
-  background-color: #cfd3da;
+   background-color: #cfd3da;
   font-weight: bold;
   padding: 1rem;
+  border:solid 3px black;
+  border-radius: 0.5rem;
+
 }
+
